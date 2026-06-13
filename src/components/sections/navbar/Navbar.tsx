@@ -37,9 +37,9 @@ export default function Navbar() {
 
   return (
     <nav className={`${navBase} ${navScrolled}`} id="nav">
-      <span className="flex items-center gap-[10px] font-mono text-[14px] text-heading tracking-[.04em]">
+      <a href="/#" className="flex items-center gap-[10px] font-mono text-[14px] text-heading tracking-[.04em]">
         Lumi Cloud
-      </span>
+      </a>
       <span className="flex gap-[6px] max-[720px]:hidden">
         {(['approach', 'work', 'about'] as const).map((id) => (
           <a
