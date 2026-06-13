@@ -18,7 +18,7 @@ export default function Navbar() {
       { rootMargin: '-45% 0px -50% 0px' },
     )
 
-    ;['approach', 'work', 'about', 'contact'].forEach((id) => {
+    ;['approach', 'work', 'about'].forEach((id) => {
       const el = document.getElementById(id)
       if (el) obs.observe(el)
     })
@@ -42,7 +42,7 @@ export default function Navbar() {
         elk
       </span>
       <span className="flex gap-[6px] max-[720px]:hidden">
-        {(['approach', 'work', 'about', 'contact'] as const).map((id) => (
+        {(['approach', 'work', 'about'] as const).map((id) => (
           <a
             key={id}
             href={`#${id}`}
@@ -54,12 +54,6 @@ export default function Navbar() {
           </a>
         ))}
       </span>
-      <a
-        href="#contact"
-        className="font-mono text-[13px] font-medium text-[#3a2e12] bg-gold border-none px-4 py-[9px] rounded-full cursor-pointer no-underline transition-[transform,box-shadow] duration-150 hover:-translate-y-px hover:shadow-[0_6px_22px_rgba(255,198,109,.22)] whitespace-nowrap"
-      >
-        Book a call
-      </a>
     </nav>
   )
 }

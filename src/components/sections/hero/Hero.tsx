@@ -11,9 +11,6 @@ export default function Hero() {
         Idea prototyping, software validation, and the dev tools to ship it — built from the systems up by one engineer who owns the outcome.
       </p>
       <span className="hero-row flex gap-[14px] flex-wrap justify-center mt-[6px] transition-[opacity,transform] duration-700 ease-[ease] [transition-delay:300ms]">
-        <a href="#contact" className="font-mono text-[13px] font-medium text-[#3a2e12] bg-gold border-none px-4 py-[9px] rounded-full cursor-pointer no-underline transition-[transform,box-shadow] duration-150 hover:-translate-y-px hover:shadow-[0_6px_22px_rgba(255,198,109,.22)] whitespace-nowrap">
-          Book a call
-        </a>
         <a href="#work" className="inline-flex items-center gap-2 font-mono text-[13px] text-prose border border-surface2 px-[18px] py-[10px] rounded-full cursor-pointer no-underline transition-[border-color,color,transform] duration-150 hover:border-prose hover:text-heading hover:-translate-y-px">
           See the work <span aria-hidden="true">→</span>
         </a>

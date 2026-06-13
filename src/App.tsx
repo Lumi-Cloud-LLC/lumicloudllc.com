@@ -5,7 +5,6 @@ import Hero from './components/sections/hero/Hero'
 import Approach from './components/sections/approach/Approach'
 import Work from './components/sections/work/Work'
 import About from './components/sections/about/About'
-import Contact from './components/sections/contact/Contact'
 import Footer from './components/sections/footer/Footer'
 import ControlPanel from './components/panel/ControlPanel'
 
@@ -26,7 +25,6 @@ export default function App() {
           <Approach />
           <Work />
           <About />
-          <Contact />
           <Footer />
         </main>
       </div>
