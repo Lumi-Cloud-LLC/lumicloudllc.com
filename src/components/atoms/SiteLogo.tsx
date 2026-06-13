@@ -2,7 +2,7 @@ interface ElkLogoProps {
   size?: number
 }
 
-export default function ElkLogo({ size = 21 }: ElkLogoProps) {
+export default function SiteLogo({ size = 21 }: ElkLogoProps) {
   return (
     <svg
       width={size}

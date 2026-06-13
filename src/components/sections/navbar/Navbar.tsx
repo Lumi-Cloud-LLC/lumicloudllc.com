@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import ElkLogo from '../../atoms/ElkLogo'
+import SiteLogo from '../../atoms/SiteLogo.tsx'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
@@ -38,8 +38,7 @@ export default function Navbar() {
   return (
     <nav className={`${navBase} ${navScrolled}`} id="nav">
       <span className="flex items-center gap-[10px] font-mono text-[14px] text-heading tracking-[.04em]">
-        <ElkLogo size={21} />
-        elk
+        Lumi Cloud
       </span>
       <span className="flex gap-[6px] max-[720px]:hidden">
         {(['approach', 'work', 'about'] as const).map((id) => (

@@ -27,7 +27,7 @@ const CARDS = [
 export default function Approach() {
   return (
     <section className="py-24" id="approach">
-      <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4">// what I do</div>
+      <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4">// What we do</div>
       <h2 className="font-display font-medium text-[clamp(27px,4vw,40px)] text-heading tracking-[-0.015em] mb-[42px] max-w-[20ch] text-balance text-halo">
         Three ways an idea becomes something real.
       </h2>
