@@ -23,7 +23,7 @@ export default function Contact() {
 
   return (
     <section className="py-24 border-t border-[rgba(60,63,65,0.5)]" id="contact">
-      <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4 text-halo">// contact</div>
+      <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4">// contact</div>
       <div className="grid grid-cols-[1fr_1fr] gap-12 items-start max-[720px]:grid-cols-1">
         <div>
           <h2 className="font-display font-medium text-[clamp(27px,4vw,40px)] text-heading tracking-[-0.015em] mb-[28px] text-balance text-halo">

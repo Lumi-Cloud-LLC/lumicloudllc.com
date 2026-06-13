@@ -81,9 +81,9 @@
 /* Text legibility halo — cardless text over the busy 3D backdrop */
 .text-halo {
     text-shadow:
-        0 0 8px gainsboro,
-        0 0 22px #1e1f22,
-        0 0 44px #1e1f22;
+        0 0 4px gainsboro,
+        0 0 12px #1e1f22,
+        0 0 24px #1e1f22;
 }
 
 /* Panel scrollbar */
