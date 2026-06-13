@@ -1,4 +1,4 @@
-// Module-level mutable mouse state — NOT React state to avoid re-renders
+// Module-level mutable mouse state - NOT React state to avoid re-renders
 export const mouse = {
   clientX: 0,
   clientY: 0,

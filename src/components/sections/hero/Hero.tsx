@@ -5,14 +5,14 @@ export default function Hero() {
         // Software Solutions Studio
       </span>
       <h1 className="hero-h1 font-display font-bold text-[clamp(40px,7vw,78px)] leading-[1.01] text-heading tracking-[-0.025em] max-w-[14ch] text-balance text-halo transition-[opacity,transform] duration-700 ease-[ease] [transition-delay:100ms]">
-        Software, built right.
+        Software, built right
       </h1>
       <p className="hero-p max-w-[50ch] text-[clamp(16px,2vw,19px)] text-prose text-halo transition-[opacity,transform] duration-700 ease-[ease] [transition-delay:200ms]">
-        Idea prototyping, software validation, and the dev tools to ship it — built from the systems up by a specialized team who owns the outcome.
+        Idea prototyping, software validation, and the dev tools to ship it - built from the systems up by a specialized team who owns the outcome.
       </p>
       <span className="hero-row flex gap-[14px] flex-wrap justify-center mt-[6px] transition-[opacity,transform] duration-700 ease-[ease] [transition-delay:300ms]">
         <a href="#work" className="inline-flex items-center gap-2 font-mono text-[13px] text-prose border border-surface2 px-[18px] py-[10px] rounded-full cursor-pointer no-underline transition-[border-color,color,transform] duration-150 hover:border-prose hover:text-heading hover:-translate-y-px">
-          See the work <span aria-hidden="true">→</span>
+          See the work <span aria-hidden="true">-&gt;</span>
         </a>
       </span>
         {false ? <span

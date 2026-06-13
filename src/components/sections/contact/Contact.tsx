@@ -11,7 +11,7 @@ export default function Contact() {
     const subj = encodeURIComponent(subjectRef.current?.value.trim() || 'Project enquiry')
     const body = encodeURIComponent(
       (messageRef.current?.value.trim() ?? '') +
-        '\n\n— ' +
+        '\n\n- ' +
         (fromRef.current?.value.trim() ?? ''),
     )
     window.location.href =

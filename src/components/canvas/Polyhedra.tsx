@@ -114,7 +114,7 @@ export default function Polyhedra() {
     const cfg = useConfigStore.getState().config
     const t = clock.getElapsedTime()
 
-    // Scroll-velocity boost — always accelerates (abs), never reverses drift
+    // Scroll-velocity boost - always accelerates (abs), never reverses drift
     const scrollY = window.scrollY ?? 0
     const rawDelta = Math.abs(scrollY - lastScrollYRef.current)
     lastScrollYRef.current = scrollY

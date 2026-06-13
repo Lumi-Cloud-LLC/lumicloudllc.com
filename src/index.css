@@ -50,7 +50,7 @@
     }
 }
 
-/* Hero entrance — applied to <html>; can't be done with component-level Tailwind */
+/* Hero entrance - applied to <html>; can't be done with component-level Tailwind */
 @keyframes pulse {
     0% {
         box-shadow: 0 0 0 0 rgba(136, 176, 110, 0.5);
@@ -78,7 +78,7 @@
     transition: none;
 }
 
-/* Text legibility halo — cardless text over the busy 3D backdrop */
+/* Text legibility halo - cardless text over the busy 3D backdrop */
 .text-halo {
     text-shadow:
         0 0 4px gainsboro,
