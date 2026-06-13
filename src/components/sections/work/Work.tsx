@@ -2,7 +2,7 @@ import WorkGraph from './WorkGraph'
 
 export default function Work() {
   return (
-    <section className="py-24 border-t border-[rgba(60,63,65,0.5)]" id="work">
+    <section className="py-24" id="work">
       <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4">// selected work</div>
       <h2 className="font-display font-medium text-[clamp(27px,4vw,40px)] text-heading tracking-[-0.015em] mb-[42px] max-w-[20ch] text-balance text-halo">
         A few systems, drawn abstractly.

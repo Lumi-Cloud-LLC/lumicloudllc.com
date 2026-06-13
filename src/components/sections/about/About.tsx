@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="py-24 border-t border-[rgba(60,63,65,0.5)]" id="about">
+    <section className="py-24" id="about">
       <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4">// about</div>
       <div className="grid grid-cols-[1fr_1fr] gap-12 items-start max-[720px]:grid-cols-1">
         <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted">// the layer underneath</div>

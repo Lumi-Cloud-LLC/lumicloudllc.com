@@ -22,7 +22,7 @@ export default function Contact() {
     'font-sans text-[14.5px] text-heading bg-[rgba(30,31,34,0.7)] border border-surface2 rounded-[9px] px-[13px] py-[11px] transition-[border-color,box-shadow] focus:outline-none focus:border-gold focus:shadow-[0_0_0_3px_rgba(255,198,109,.14)] w-full'
 
   return (
-    <section className="py-24 border-t border-[rgba(60,63,65,0.5)]" id="contact">
+    <section className="py-24" id="contact">
       <div className="font-mono text-[12px] tracking-[.14em] uppercase text-muted mb-4">// contact</div>
       <div className="grid grid-cols-[1fr_1fr] gap-12 items-start max-[720px]:grid-cols-1">
         <div>
