@@ -6,7 +6,6 @@ import Approach from './components/sections/approach/Approach'
 import Work from './components/sections/work/Work'
 import About from './components/sections/about/About'
 import Footer from './components/sections/footer/Footer'
-import ControlPanel from './components/panel/ControlPanel'
 
 export default function App() {
   return (
@@ -29,8 +28,6 @@ export default function App() {
         </main>
       </div>
 
-      {/* Control panel (z-index 55-60) */}
-      <ControlPanel />
     </>
   )
 }
