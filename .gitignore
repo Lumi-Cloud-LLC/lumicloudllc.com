@@ -1,3 +1,4 @@
+make.ps1
 node_modules
 *.log
 
